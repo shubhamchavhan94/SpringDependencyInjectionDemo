@@ -12,5 +12,7 @@ public class Test {
 		Employee e = (Employee) ap.getBean("e");
 
 		System.out.println(e);
+		
+		e.getData();
 	}
    }
