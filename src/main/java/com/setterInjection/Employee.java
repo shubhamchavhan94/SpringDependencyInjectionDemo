@@ -22,6 +22,11 @@ public class Employee {
 		return "Employee [name=" + name + ", city=" + city + "]";
 	}
 	
+	//instead of toString we can write the getData() method
+	public void getData() {
+		System.out.println("Name >> "+name);
+		System.out.println("City >> "+city);
+	}
 	
 	
 	
